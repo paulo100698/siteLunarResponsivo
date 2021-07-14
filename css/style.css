@@ -1,0 +1,465 @@
+
+
+/* --------------------------- LAYOUT ------------------------------- */
+
+html, body, #capa{
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../img/fundo.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+@media (max-width: 768px) {
+    body {
+
+    background-image: url('../img/fundo.jpg');
+    background-size: 100%;
+    background-position: left;
+
+   }
+}
+
+/* -- BARRA DE NAVEGAÇÃO -- */
+
+.img-logo{
+    height: 35px;
+    width: 215px;
+    display: block;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    margin-top: 7px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #e90153;
+    transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+}
+
+.divisor {
+    width: 1px;
+    height: 6px;
+    margin:24px 10px;
+    background: rgb(124, 124, 124);
+}
+
+/* -- IMAGEM DE CAPA -- */
+
+#capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto-capa h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.texto-capa h2{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.texto-capa h3{
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+.texto-capa a{
+    font-weight: bold;
+}
+
+.botao-capa{
+    margin-top: 8px;
+    height: 47px;
+    width: 220px;
+}
+
+.mostarda{
+    font-weight: bold;
+    color: #e90153;
+}
+
+.mostarda:hover{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#capa .btn-success {
+    color: white;
+    background-color: #e90153;
+    border-color: #e90153;
+}
+
+.btn-success:hover {
+    color: black;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+/* -- SEÇÃO DE DESCRICAO -- */
+
+#descricao {
+    background-attachment: fixed;
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#descricao h2{
+    font-weight: bold;
+    color: #e90153;
+    padding-bottom: 45px;
+}
+
+#descricao p{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+#descricao .btn{
+    margin-top: 65px;
+    font-weight: bold;
+}
+
+#descricao .img-2 {
+
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+/* -- SEÇÃO DE VANTAGENS -- */
+
+#vantagens {
+    background: white;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+#vantagens h2{
+    font-weight: bold;
+    color: #e90153;
+    padding-bottom: 45px;
+}
+
+#vantagens p{
+    color: rgba(0,0,0,0.9);
+    font-size: 18px;
+}
+
+#vantagens .img-1{
+    margin-left: 40px;
+    width: 200px;
+}
+
+#vantagens .img-2{
+    margin-top: 40px;
+    width: 310px;
+}
+
+#vantagens .img-3{
+    width: 270px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+
+#vantagens .texto-2{
+    margin-top: 120px;
+}
+
+/* SEÇÃO DE PLANOS */
+
+#planos{
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#planos p{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#planos p span{
+    font-weight: bold;
+}
+
+#planos h1{
+    text-align: center;
+    font-size:32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #e90153;
+}
+
+#planos h2{
+    text-align: center;
+    font-size:28px;
+    font-weight: bold;
+    background: rgba(110, 110, 110, 0.9);
+    color: #e90153;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#planos .gold{
+    text-align: center;
+    font-size:28px;
+    font-weight: bold;
+    background: #f2b935;
+    color: #272727;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#planos .platinum{
+    text-align: center;
+    font-size:28px;
+    font-weight: bold;
+    background: black;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#planos h3{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 2px 3px #c5c5c5;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+#planos .btn-success{
+    margin-bottom: 20px;
+    margin-left: 105px;
+    font-weight: bold;
+}
+
+#planos .btn-success:hover{
+    margin-bottom: 20px;
+    margin-left: 105px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid green;
+}
+
+.planos-reais{
+    font-size: 60px;
+}
+
+.planos-centavos {
+    font-size: 20px;
+}
+
+.desconto {
+    color: red;
+    font-size: 17px;
+}
+
+.risco {
+    text-decoration: line-through;
+}
+
+.prata{
+    color: #ffffff;
+}
+
+.box {
+    background: #fbfbfb;
+}
+
+.box ol{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* SEÇÃO DE TUTORIAIS */
+
+#tutoriais {
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#tutoriais h1{
+    text-align: center;
+    font-size:32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #474747;
+}
+
+@media screen and (max-width: 767px){
+    
+    html, body, #capa{
+        height: 100%;
+        overflow: auto;
+        background-image: url('../img/fundo.jpg');
+        background-attachment: fixed;
+    }
+
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    #capa{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .texto-capa h1{
+        font-weight: bold;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
+    .texto-capa h2{
+        margin-top: 60px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .texto-capa h3{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .texto-capa{
+        text-align: center;
+        color: white;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .botao-capa{
+        margin-top: 8px;
+        height: 47px;
+        width: 190px;
+    }
+
+    #descricao .img-1 {
+        display: none;
+    }
+
+
+    #descricao .img-2 {
+        display: none;
+    }
+
+    #descricao h2{
+        font-weight: bold;
+        font-size: 28px;
+        text-align: center;
+        color: #e90153;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    #descricao p{
+        text-align: center;
+        color: rgba(0,0,0,0.9);
+        font-size: 16px;
+    }
+
+    #vantagens h2{
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #e90153;
+        padding-bottom: 45px;
+    }
+
+    #vantagens p{
+        text-align: center;
+        color: rgba(0,0,0,0.9);
+        font-size: 16px;
+    }
+
+    #vantagens .img-1{
+        display: none;
+    }
+
+    .texto-3 h2{
+        padding-left: 50px;
+    }
+
+    #vantagens .img-2{
+        display: none;
+    }
+
+    #vantagens .img-3{
+        display: none;
+    }
+
+    #planos h1{
+        text-align: center;
+        font-size:28px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        color: #e90153;
+    }
+
+    #planos p{
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    #rodape img{
+        width: 160px;
+    }
+
+    #rodape h4{
+        text-align: center;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    #tutoriais h1{
+        text-align: center;
+        font-size:28px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        color: #f2b935;
+    }
+
+}
+
+
